@@ -42,5 +42,6 @@ if __name__ == '__main__':
 
         dst_img.paste(input_img, (0, 0))
         dst_img.paste(input_img, (width, 0))
+        dst_img.save(imagepath)
 
         cnt += 1
