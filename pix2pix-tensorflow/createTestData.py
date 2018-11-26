@@ -7,7 +7,7 @@ import shutil
 
 if __name__ == '__main__':
     param = sys.argv
-    if (len(param) != 3):
+    if (len(param) != 2):
         print ("Usage: $ python " + param[0] + " /photo_directory")
         quit()
 
